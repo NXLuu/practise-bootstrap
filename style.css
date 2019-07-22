@@ -222,6 +222,50 @@ body, html {
 	top: 0;
 }
 
+/* ------------------------------------------- */
+/* --- My services ---- */
+.my-services .card {
+	border: none;
+}
+
+.my-services .big-size {
+	font-size: 3rem;
+	transition: all 0.4s;
+}
+
+.my-services {
+	transition: all 0.4s;
+}
+
+.my-services .card:hover .fab {
+	transform: rotateY(360deg);
+}
+
+.my-services .card:hover .far {
+	transform: rotateY(360deg);
+}
+
+.my-services .card:hover .fas {
+	transform: rotateY(360deg);
+}
+
+.my-services .line {
+	display: block;
+	margin-top: 1rem;
+	width: 3.5rem;
+	background-color: black;
+	height: 1px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.my-services .serparate-line {
+	width: 120%;
+	height: 1px;
+	background-color: #DDD;
+}
+
+
 /* ------------------------------------------ */
 
 @media (min-width: 768px) { 
@@ -233,6 +277,14 @@ body, html {
 	}
 	.title h4 {
 		font-size: 2rem;
+	}
+}
+
+@media (min-width: 992px) {
+	.my-services .card {
+		margin-bottom: 1.5rem;
+		margin-top: 1.5rem;
+		border-right: 1px solid #DDD;
 	}
 }
 
