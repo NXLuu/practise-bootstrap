@@ -1,5 +1,7 @@
 body, html {
 	height: 100%;
+	font-family: 'Lato', sans-serif !important;
+	letter-spacing: 1px;
 }
 
 /* home-screen */
@@ -145,6 +147,82 @@ body, html {
 		transform: translateY(16px);
 	}
 }
+
+/* ----- About ------ */
+.summary {
+	padding-top: 7rem;
+}
+
+.about-me {
+	padding-top: 1rem;
+}
+
+.about-me .list-group-item {
+	border: none;
+	display: flex;
+	align-items: baseline;
+	padding: 0;
+}
+
+.icon-contact {
+	margin-top: 1rem;
+	margin-bottom: 3rem;
+}
+
+.icon-contact .list-group-item {
+	border: 1px solid #b3afaf!important;
+	border-radius: 50%!important;
+	padding-left: 0;
+	padding: 0!important;
+	display: block;
+	width: 40px!important;
+	height: 40px!important;
+	margin-right: 30px!important;
+	position: relative;
+} 
+
+.icon-contact .fab {
+	position: absolute;
+	display: block;
+	left: 30%;
+	top: 30%;
+}
+
+.icon-contact a {
+	transition: all 0.6s;
+}
+
+.icon-contact a:hover {
+	background-color: black;
+}
+
+.icon-contact a:hover .fab {
+	color: white;
+}
+
+.progress-skill .progress-item{
+	margin-top: 2.75rem;
+	position: relative;
+}
+
+.progress-skill .text-skill {
+	padding-left: 8px;
+	color: black;
+	font-size: 0.95rem;
+	font-weight: 500;
+}
+
+.progress-skill .progress {
+	height: 8px;
+}
+
+.progress-skill .percent-text {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+/* ------------------------------------------ */
 
 @media (min-width: 768px) { 
 	.img-personal {
